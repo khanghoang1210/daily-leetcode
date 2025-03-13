@@ -1,3 +1,5 @@
+# Time: O(n^2) / Space: O(n)
+
 def getRow(rowIndex: int) :
     arr = [1]
     for i in range(0, rowIndex):
